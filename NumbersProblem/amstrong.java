@@ -1,4 +1,3 @@
-package numbersProblem;
 
 public class amstrong {
     public static void main(String[] args) {

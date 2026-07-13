@@ -1,4 +1,3 @@
-package numbersProblem;
 
 class swapTemp {
     public static void main(String[] args) {
