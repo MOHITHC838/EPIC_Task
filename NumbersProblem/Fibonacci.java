@@ -1,14 +1,17 @@
 public class Fibonacci  {
     public static void main(String[] args) {
-        int nums_1 = 0;
-        int nums_2= 1;
-        int input = 7;
-        int sum =0;
-        for(int i=1;i<=input;i++){
-            sum +=i;
-
+        int a= 0; 
+        int b = 1;
+       System.out.println(a);
+       System.out.println(b);
+        for(int i=0;i<4;i++){  
+            int c=a+b;
+            a =b;
+            b = c;
+            System.out.println(c);
         }
-        System.out.print(sum);
+        
+        
         
     }
     
