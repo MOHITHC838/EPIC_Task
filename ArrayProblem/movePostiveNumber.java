@@ -1,10 +1,9 @@
 package ArrayProblem;
 
-import java.util.Arrays;
 
 public class movePostiveNumber {
     public static void main(String[] args) {
-        int[] arr = { -2,5,-1,8,-4,3};
+        int[] arr = {-2,5,-1,-5,-4};
         int  n=arr.length;
 
         int left = 0;
